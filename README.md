@@ -1,5 +1,7 @@
 # 2420_Lab12_web-server
 2420_Lab12_web-server
+Student: Yingyi He
+Student ID: A01230375
 
 ## Step1: Install Nginx web server
 Use `sudo apt update` and `sudo apt upgrade` at first.
