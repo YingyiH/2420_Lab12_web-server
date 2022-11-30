@@ -95,6 +95,33 @@ Use `mv` to move the `index.html` to the correct location:
 
 <img width="549" alt="Screenshot 2022-11-23 at 9 18 38 PM" src="https://user-images.githubusercontent.com/100324443/204767569-efd4c664-e25f-4a92-be1a-d96e01bb51cc.png">
 
+## Step5: Restart server
+Use `sudo systemctl restart nginx` to restart the Nginx server:
+
+<img width="625" alt="Untitled" src="https://user-images.githubusercontent.com/100324443/204768031-06d63ba8-6446-4a0f-92d4-17ea8a1335e1.png">
+
+## Step6: Check if the IP Address is served
+Use `http://<IP Address>` as the web address to access the html file
+
+<img width="500" alt="Screenshot 2022-11-23 at 6 22 44 PM" src="https://user-images.githubusercontent.com/100324443/204768234-9f558528-e169-4307-bf29-4944b998a0a9.png">
+
+## Step7: Set up the firewall
+Use `sudo ufw status` to check ufw status and use `sudo ufw app list` to list them
+
+<img width="306" alt="Untitled" src="https://user-images.githubusercontent.com/100324443/204768590-f0a42ed3-e2bd-4ec2-ba32-3fa52a44003d.png">
+
+Allow incoming http and ssh
+
+<img width="319" alt="Screenshot 2022-11-23 at 9 47 46 PM" src="https://user-images.githubusercontent.com/100324443/204768651-ec73335a-3fef-45be-a00d-1858d8aefae5.png">
+
+## Step8: Enable the firewall
+
+<img width="634" alt="Screenshot 2022-11-23 at 9 52 44 PM" src="https://user-images.githubusercontent.com/100324443/204768752-09cc0441-5bd1-4716-87c3-a8d9978a5677.png">
+
+Check if still can access the website by IP address
+
+<img width="354" alt="Screenshot 2022-11-23 at 9 53 33 PM" src="https://user-images.githubusercontent.com/100324443/204768867-5771eb9e-3cde-4244-bd9c-d9214ee63e4e.png">
+
 
 
 
