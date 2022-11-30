@@ -24,11 +24,11 @@ Student ID: A01230375
 <html>
     <head>
 				<meta charset="UTF-8" />
-        <title>Example Site for 2420</title>
+        <title>2420 Example html file</title>
     </head>
     <body>
-        <h1>Success!</h1>
-        <h2 style="color: red;">All your internets are belong to us!</h2>
+        <h1>This is a website</h1>
+        <h2 style="color: red;">This is a website for testing</h2>
     </body>
 </html>
 ```
