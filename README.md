@@ -1,7 +1,15 @@
-# 2420_Lab12_web-server
-2420_Lab12_web-server
+# Linux-Nginx-Web-Server-Project
+Linux Nginx Web Server Project
+
+## Author
 Student: Yingyi He
-Student ID: A01230375
+
+## Description
+This project is to practice Linux Nginx web server with these functions:
+	- Create Nginx web server block
+	- Connect host and server device
+	- Transfer files between host and server device
+	- Set up firewall for HTTP and IP
 
 ## Step1: Install Nginx web server
 - Use `sudo apt update` and `sudo apt upgrade` at first.
