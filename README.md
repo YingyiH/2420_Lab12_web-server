@@ -6,10 +6,11 @@ Student: Yingyi He
 
 ## Description
 This project is to practice Linux Nginx web server with these functions:
-	- Create Nginx web server block
-	- Connect host and server device
-	- Transfer files between host and server device
-	- Set up firewall for HTTP and IP
+
+- Create Nginx web server block
+- Connect host and server device
+- Transfer files between host and server device
+- Set up firewall for HTTP and IP
 
 ## Step1: Install Nginx web server
 - Use `sudo apt update` and `sudo apt upgrade` at first.
